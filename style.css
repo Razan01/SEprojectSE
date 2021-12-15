@@ -1,0 +1,87 @@
+/*
+    # id
+    . class
+
+*/
+
+/*--------------body----------------*/
+body{
+    background-color: #b88166;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+/*--------------header----------------*/
+header{
+    background-color: #f8fcff;
+    padding: 25px;
+    box-shadow: 0 0 7px #000;
+    gap: 1rem;
+}
+
+header li{
+    display: inline;
+    padding-left: 45px; ;
+}
+header li img/*#logo*/{ 
+    width: 135px;
+    float: right;
+    margin-top: -50px;
+}
+
+header a/*#NameHeader*/{
+      color: #5b4047;
+      margin-top: -10px;
+      float: inline-start;
+      height: 100%;
+      font-size: 60px;
+      font-weight: 300px;
+      position: relative;
+}
+
+
+/*--------------From----------------*/
+
+.textarea_style {
+    margin: 20px;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+/*--------------Botton----------------*/
+
+.submit{
+    font-size: 16px;
+    padding: 16px 30px;
+    border-radius: 30px;
+    background-color: #8f5121;
+    color: #ffffff;
+}
+
+.submit:hover,
+.submit:focus{
+    background: #8f4621;
+}
+.submit:active{
+    background: #3a210d;
+}
+
+.reset{
+    font-size: 16px;
+    padding: 16px 30px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    color: #8f5121;
+}
+.reset:hover,
+.reset:focus{
+    background: #8f5121;
+    color: #ffffff;
+}
+.reset:active{
+    background: #ffffff;
+    color: #8f5121;
+}

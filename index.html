@@ -1,17 +1,74 @@
- <!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Your front-end</title>
-</head>
+<!DOCTYPE html>
 
-<body>
-<form action="/fasttext">
-	Enter your text to be classified<br>
-	<input type="text" name="statement">
-	<input type="submit" value="Submit">
-</form> 
+<html><!-- here starts the html file -->
 
-</body>
+	<head><!-- start head -->
+		<meta charset="UTF-8">
+		<title>https://yumyummyfood.com</title> <!--title Your front-end -->
+		<link rel="stylesheet" type="text/css" href="style.css"> <!-- CSS class -->
+		<script src="index.js"></script>
 
-</html> 
+	</head><!-- end head -->
+
+	<body><!-- start body -->
+
+		<header><!-- start header -->
+			<a> YUMYUMMY <b>FOOD</b></a>
+
+			<ul>
+					<li><img id="logo" src="https://cdn.dribbble.com/users/143350/screenshots/14052412/media/27ab3785352e64f357bc1608bae74361.png?compress=1&resize=1600x1200" alt="Logo.png" ></li>
+			</ul>
+
+		</header><!-- end header -->
+
+
+
+		
+		
+		<form><!-- start form -->
+			
+			<!-- textarea -->
+			<label class="label">YUMYUMMY FOOD Description</label><br>
+			<div class="textarea_style"> 
+				<textarea class="textarea" id="textarea" name="textarea_description" rows="15" cols="60" placeholder= "Write Your description Here ... "></textarea>
+			</div><br>
+
+			<!-- Button -->
+			<ul class="button"> 
+				<input  class="submit" type="submit" value="Submit"> 
+				<input  class="reset"  type="reset"  value="Clear Text">
+			</ul>
+
+			<div> 
+				<textarea name="output" rows="15" cols="60" readonly placeholder= " Your description Here ... "></textarea>
+			</div><br>
+			
+		</form><!-- end form -->
+	
+	</body><!-- end body -->
+
+</html><!-- end html file -->
+
+<!--
+---NOTE---
+
+b => bold
+i => Italic
+
+ul => unorderd list  (o)
+ol => orderd list    (1)
+   li => list item 
+
+dl => description list
+   dt => term
+   dd => description term
+
+table => table
+
+hr => horizontal line
+
+div => divegen
+
+p => patagraph 
+
+-->
